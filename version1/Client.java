@@ -3,7 +3,7 @@ import java.io.PrintStream;
 import java.net.Socket;
 import java.net.UnknownHostException;
  
-public class Cliente {
+public class Client {
 	public static void main(String[] args) 
            throws UnknownHostException, IOException {
 		Socket cliente = new Socket("127.0.0.1", 12345);
