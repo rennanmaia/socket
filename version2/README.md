@@ -6,11 +6,10 @@ It was written to shows a at communications in distributed systems class to desc
 ## Description
 
 ### Server
-This version 1 contains a simmple server that just initialize on 12345 port and wait for a connection.
+This version 2 contains a simmple server that just initialize on 12345 port and wait for a connection. Whe it receive a connection, shows a string the is sent to the client and closes.
 
 ### Client
-The client initialize, connects with server and terminate its running.
-
+The client initialize with a string argument, connects with server, send the string and close.
 
 ## Requirements
 Java SE Development Kit
@@ -25,5 +24,5 @@ javac Client.java
 ### Running
 ```sh
 java Server
-java Client
+java Client stringEnviada
 ```
