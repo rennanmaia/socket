@@ -4,6 +4,7 @@ This is a socket example using java programming language that describe the commu
 It was written to shows a at communications in distributed systems class to describe primitive communication process using different systems.
 
 ## Description
+Version 1
 
 ### Server
 This version 1 contains a simmple server that just initialize on 12345 port and wait for a connection.
